@@ -6,13 +6,16 @@ This website is made fot the demo purpose.
 
 ## Installation 
 
-Install project with npm
+Clone the repository using git bash.
 
 ```bash 
   git clone {repo url}
-  npm install
-  npm start
 ```
+
+## Steps to run the project
+
+-  `npm install`
+-  `npm start`
     
 ## Documentation
 
