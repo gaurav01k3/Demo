@@ -1,0 +1,126 @@
+.upper__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.upper__link,
+.upper__link2 {
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s linear;
+}
+
+.upper__link {
+  margin: 1.5rem 0;
+}
+
+.upper__link2 {
+  text-decoration: underline;
+}
+
+.upper__link:hover,
+.upper__link2:hover {
+  color: black;
+}
+
+.upper__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper__left {
+  padding: 1rem;
+  width: 55%;
+  max-height: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.upper__leftH {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.upper__lefth {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.upper__leftP1,
+.upper__leftP2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.upper__right {
+  width: 38%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.233);
+}
+.upper__rightRow {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.upper__rightRowItem {
+  font-size: 1.5rem;
+}
+
+.upper__rightRowItem span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.upper__rightButton {
+  width: 90%;
+  margin: 0 auto;
+}
+.upper__rightButton button {
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.upper__rightButton button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+@media screen and (min-width: 701px) and (max-width: 910px) {
+  .upper__wrapper {
+    justify-content: space-between;
+  }
+  .upper__right {
+    width: 60%;
+  }
+  .upper__left {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .upper__right {
+    display: none;
+  }
+  .upper__left {
+    width: 100%;
+  }
+}

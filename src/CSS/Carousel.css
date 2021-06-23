@@ -1,0 +1,70 @@
+.carousel {
+  margin: 15rem 0;
+  height: 25rem;
+}
+
+.carousel__containerHead,
+.carousel__bar {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.carousel__head {
+  display: flex;
+  align-items: center;
+}
+
+.carousel__bullet {
+  background-color: rgba(177, 164, 238, 0.486);
+  width: 4rem;
+  color: rgba(0, 0, 255, 0.473);
+  height: 4rem;
+  border-radius: 3rem;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+}
+
+.carousel__text {
+  margin-left: 2rem;
+}
+
+.carousel__text h1 {
+  font-size: 2.5rem;
+}
+
+.carousel__text p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* bar css */
+
+.carousel__box {
+  margin: 2.5rem 3rem 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 30rem;
+  cursor: pointer;
+}
+
+.carousel__text2 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.carousel__text2 p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel__box:hover {
+  box-shadow: 0.5px 0.5px 1px 0px rgba(0, 0, 0, 0.13),
+    -0.5px 0.5px 1px 0px rgba(0, 0, 0, 0.158);
+}

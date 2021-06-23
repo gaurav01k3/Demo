@@ -1,0 +1,37 @@
+.carousel__image {
+  position: relative;
+}
+.lockcarousel__over {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  border: 3px solid;
+}
+
+.lock_icon {
+  position: absolute;
+  top: 42%;
+  right: 45%;
+  color: aliceblue;
+}
+.lock_text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+.lockcarousel__over:hover + .lock_icon {
+  display: none;
+}
+
+.lockcarousel__over:hover + .lock_icon + .lock_text {
+  display: block;
+}
