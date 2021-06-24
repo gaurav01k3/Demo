@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Demo-Brilliant/static/css/main.32c76ff6.chunk.css",
+    "main.js": "/Demo-Brilliant/static/js/main.80910766.chunk.js",
+    "main.js.map": "/Demo-Brilliant/static/js/main.80910766.chunk.js.map",
+    "runtime-main.js": "/Demo-Brilliant/static/js/runtime-main.3a5c385e.js",
+    "runtime-main.js.map": "/Demo-Brilliant/static/js/runtime-main.3a5c385e.js.map",
+    "static/js/2.99d5e8fc.chunk.js": "/Demo-Brilliant/static/js/2.99d5e8fc.chunk.js",
+    "static/js/2.99d5e8fc.chunk.js.map": "/Demo-Brilliant/static/js/2.99d5e8fc.chunk.js.map",
+    "index.html": "/Demo-Brilliant/index.html",
+    "static/css/main.32c76ff6.chunk.css.map": "/Demo-Brilliant/static/css/main.32c76ff6.chunk.css.map",
+    "static/js/2.99d5e8fc.chunk.js.LICENSE.txt": "/Demo-Brilliant/static/js/2.99d5e8fc.chunk.js.LICENSE.txt",
+    "static/media/brilliant.dc2ed9ba.png": "/Demo-Brilliant/static/media/brilliant.dc2ed9ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a5c385e.js",
+    "static/js/2.99d5e8fc.chunk.js",
+    "static/css/main.32c76ff6.chunk.css",
+    "static/js/main.80910766.chunk.js"
+  ]
+}
